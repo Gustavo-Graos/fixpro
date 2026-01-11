@@ -3,185 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FixPro</title>
+    <title>FixPro | Servicios Técnicos Rápidos y Confiables</title>
+
+    <meta name="description" content="FixPro ofrece servicios técnicos rápidos y confiables. Atención profesional y contacto directo por WhatsApp.">
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/icon-web.png" type="image/png">
 </head>
 <body>
-    <header>
+    <header class="header">
         <span class="header__logo material-symbols-outlined">trip</span>
-        <h1 class="header__title">FixPro</h1>
+        <span class="header__title">FixPro</span>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="" class="nav__link">Services</a>
+                    <a href="#services" class="nav__link">Services</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link">Testimonials</a>
+                    <a href="#clients" class="nav__link">Testimonials</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link link--button">Book Now</a>
+                    <a href="#contact" class="nav__link link--button">Book Now</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="hero">
-        <div class="wrapper__hero">
-            <p class="wrapper__text">
-                <span class="material-symbols-outlined">check_circle</span>
-                TRUSTED LOCAL EXPERTS
+    <main class="main">
+        <section class="hero">
+            <div class="wrapper__hero">
+                <div class="wrapper__text">
+                    <span class="material-symbols-outlined">check_circle</span>
+                    <p>TRUSTED LOCAL EXPERTS</p>
+                </div>
+                <h1 class="hero__title">
+                    Expert Home Repairs, 
+                    <span>Done Right.</span>
+                </h1>
+                <p class="hero__paragraph">Fast, reliable, and trusted by 1,000+ neighbors. We handle the dirty work so you can relax.</p>
+                <div class="hero__buttons">
+                    <a href="#contact" class="hero__btn hero__btn--active">Book Appointment</a>
+                    <a href="#services" class="hero__btn">View Services</a>
+                </div>
+                <div class="hero__legend">
+                    <img src="img/face1.png" class="face" alt="rostro de persona tamaño miniatura">
+                    <img src="img/face2.png" class="face" alt="rostro de persona tamaño miniatura">
+                    <img src="img/face3.png" class="face" alt="rostro de persona tamaño miniatura">
+                    <p>Trusted by 500+ happy clients this month</p>
+                </div>
+            </div>
+            <div class="wrapper__img">
+                <span>Meet our Team</span>
+                <h3>Professional & Friendly</h3>
+            </div>
+        </section>
+        <section class="benefits">
+            <h2 class="benefits__title">Why Neighbors Trust Us</h2>
+            <p class="benefits__paragraph">
+                We bring professionalism and peace of mind to every job.
             </p>
-            <h2 class="hero__title">
-                Expert Home Repairs, 
-                <span>Done Right.</span>
-            </h2>
-            <p class="hero__paragraph">Fast, reliable, and trusted by 1,000+ neighbors. We handle the dirty work so you can relax.</p>
-            <div class="hero__buttons">
-                <button class="hero__btn hero__btn--active">Book Appointment</button>
-                <button class="hero__btn">View Services</button>
+            <div class="benefits__content">
+                <div class="benefits__card">
+                    <span class="material-symbols-outlined">verified_user</span>
+                    <h3>Licensed & Insured</h3>
+                    <p>Full coverage for your peace of mind. We take responsibility for our work and your safety.</p>
+                </div>
+                <div class="benefits__card">
+                    <span class="material-symbols-outlined">schedule</span>
+                    <h3>Same Day Service</h3>
+                    <p>Quick response times for urgent repairs. Because we know home issues can't always wait.</p>
+                </div>
+                <div class="benefits__card">
+                    <span class="material-symbols-outlined">payments</span>
+                    <h3>Upfront Pricing</h3>
+                    <p>Transparent quotes with no hidden fees. You'll know exactly what you pay before we start.</p>
+                </div>
             </div>
-            <div class="hero__legend">
-                <img src="img/face1.png" class="face">
-                <img src="img/face2.png" class="face">
-                <img src="img/face3.png" class="face">
-                <p>Trusted by 500+ happy clients this month</p>
+        </section>
+        <section id="services" class="services">
+            <h2 class="services__title">Our Services</h2>
+            <p class="services__paragraph">Comprehensive home repair solutions tailored to your needs.</p>
+            <div class="services__content">
+                <div class="services__item">
+                    <span class="material-symbols-outlined">plumbing</span>
+                    <h3>Plumbing</h3>
+                    <p>Leak repairs, pipe installation, drain cleaning, and fixture updates.</p>
+                </div>
+                <div class="services__item">
+                    <span class="material-symbols-outlined">bolt</span>
+                    <h3>Electrical</h3>
+                    <p>Wiring, panel upgrades, lighting installation, and safety inspections.</p>
+                </div>
+                <div class="services__item">
+                    <span class="material-symbols-outlined">hvac</span>
+                    <h3>HVAC</h3>
+                    <p>Heating and cooling maintenance, filter replacement, and repairs.</p>
+                </div>
+                <div class="services__item">
+                    <span class="material-symbols-outlined">build</span>
+                    <h3>Handyman</h3>
+                    <p>Furniture assembly, drywall patch, mounting TVs, and general repairs.</p>
+                </div>
             </div>
-        </div>
-        <div class="wrapper__img">
-            <span>Meet our Team</span>
-            <h3>Professional & Friendly</h3>
-        </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Need help right now?</h2>
+            <p class="contact__paragraph">Skip the forms and wait times. Chat with a specialist instantly to get a quote or book a slot.</p>
+            <a href="https://api.whatsapp.com/send?phone=+51999999999&text=Hola%2C%20estoy%20interesado%20en%20los%20servicios%20t%C3%A9cnicos%20de%20FixPro.%20%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%3F" class="contact__whatsapp">
+                <span class="material-symbols-outlined">message</span> 
+                Start WhatsApp Chat
+            </a>
+            <span class="contact__legend">
+                Typically replies in less than 5 minutes.
+            </span>
+        </section>
+        <section id="clients" class="clients">
+            <h2 class="clients__title">Happy Neighbors</h2>
+            <div class="clients__content">
+
+                <div class="clients__item">
+                    <div class="clients__user">
+                        <img src="img/client1.png" alt="imagen que representa a un cliente">
+                        <div class="user--description">
+                            <h3>Sarah M.</h3>
+                            <div class="client--star">
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="clients__description">"FixPro saved the day! The technician was polite, wore shoe covers, and fixed our leak in under an hour."</p>
+                </div>
+
+                <div class="clients__item">
+                    <div class="clients__user">
+                        <img src="img/client2.png" alt="imagen que representa a un cliente">
+                        <div class="user--description">
+                            <h3>John D.</h3>
+                            <div class="client--star">
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="clients__description">"Finally a service I can trust. The pricing was exactly as quoted, no surprises. Highly recommended."</p>
+                </div>
+                
+                <div class="clients__item">
+                    <div class="clients__user">
+                        <img src="img/client3.png" alt="imagen que representa a un cliente">
+                        <div class="user--description">
+                            <h3>Emily R.</h3>
+                            <div class="client--star">
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="clients__description">"Great experience from start to finish. The booking was easy, and the handyman was super knowledgeable."</p>
+                </div>
+
+            </div>
+        </section>
+        
     </main>
-    <section class="benefits">
-        <h2 class="benefits__title">Why Neighbors Trust Us</h2>
-        <p class="benefits__paragraph">
-            We bring professionalism and peace of mind to every job.
-        </p>
-        <div class="benefits__content">
-            <div class="benefits__card">
-                <span class="material-symbols-outlined">verified_user</span>
-                <h3>Licensed & Insured</h3>
-                <p>Full coverage for your peace of mind. We take responsibility for our work and your safety.</p>
-            </div>
-            <div class="benefits__card">
-                <span class="material-symbols-outlined">schedule</span>
-                <h3>Same Day Service</h3>
-                <p>Quick response times for urgent repairs. Because we know home issues can't always wait.</p>
-            </div>
-            <div class="benefits__card">
-                <span class="material-symbols-outlined">payments</span>
-                <h3>Upfront Pricing</h3>
-                <p>Transparent quotes with no hidden fees. You'll know exactly what you pay before we start.</p>
-            </div>
-        </div>
-    </section>
-    <section class="services">
-        <h2 class="services__title">Our Services</h2>
-        <p class="services__paragraph">Comprehensive home repair solutions tailored to your needs.</p>
-        <div class="services__content">
-            <div class="services__item">
-                <span class="material-symbols-outlined">plumbing</span>
-                <h3>Plumbing</h3>
-                <p>Leak repairs, pipe installation, drain cleaning, and fixture updates.</p>
-            </div>
-            <div class="services__item">
-                <span class="material-symbols-outlined">bolt</span>
-                <h3>Electrical</h3>
-                <p>Wiring, panel upgrades, lighting installation, and safety inspections.</p>
-            </div>
-            <div class="services__item">
-                <span class="material-symbols-outlined">hvac</span>
-                <h3>HVAC</h3>
-                <p>Heating and cooling maintenance, filter replacement, and repairs.</p>
-            </div>
-            <div class="services__item">
-                <span class="material-symbols-outlined">build</span>
-                <h3>Handyman</h3>
-                <p>Furniture assembly, drywall patch, mounting TVs, and general repairs.</p>
-            </div>
-        </div>
-    </section>
-    <section class="contact">
-        <h2 class="contact__title">Need help right now?</h2>
-        <p class="contact__paragraph">Skip the forms and wait times. Chat with a specialist instantly to get a quote or book a slot.</p>
-        <button class="contact__whatsapp">
-            <span class="material-symbols-outlined">whatsapp</span> 
-            Start WhatsApp Chat
-        </button>
-        <span class="contact__legend">
-            Typically replies in less than 5 minutes.
-        </span>
-    </section>
-    <section class="clients">
-        <h2 class="clients__title">Happy Neighbors</h2>
-        <div class="clients__content">
-
-            <div class="clients__item">
-                <div class="clients__user">
-                    <img src="img/client1.png" alt="">
-                    <div>
-                        <span>Sarah M.</span>
-                        <div class="client--star">
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="clients__description">"FixPro saved the day! The technician was polite, wore shoe covers, and fixed our leak in under an hour."</p>
-            </div>
-
-            <div class="clients__item">
-                <div class="clients__user">
-                    <img src="img/client2.png" alt="">
-                    <div>
-                        <span>John D.</span>
-                        <div class="client--star">
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="clients__description">"Finally a service I can trust. The pricing was exactly as quoted, no surprises. Highly recommended."</p>
-            </div>
-            
-            <div class="clients__item">
-                <div class="clients__user">
-                    <img src="img/client3.png" alt="">
-                    <div>
-                        <span>Emily R.</span>
-                        <div class="client--star">
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                            <span class="material-symbols-outlined">star</span>
-                        </div>
-                    </div>
-                </div>
-                <p class="clients__description">"Great experience from start to finish. The booking was easy, and the handyman was super knowledgeable."</p>
-            </div>
-
-        </div>
-    </section>
 
     <footer class="footer">
         <div class="footer__header">
             <span class="footer__logo material-symbols-outlined">trip</span>
-            <h1 class="footer__title">FixPro</h1>
+            <span class="footer__title">FixPro</span>
         </div>
         <div class="footer__body">
             <p>&copy; 2026 FixPro Services. All rights reserved.</p>
-            <div class="footer_links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
+            <div class="footer__links">
+                <span class="footer--link">
+                    Privacy Policy
+                    <p>Este sitio web es un proyecto ficticio creado con fines demostrativos.
+                    No recopila, almacena ni procesa datos personales reales.
+                    Cualquier información mostrada es solo referencial.</p>
+                </span>
+                <span class="footer--link">
+                    Terms of Service
+                    <p>Este sitio web corresponde a un proyecto ficticio desarrollado para demostración de habilidades en diseño y desarrollo web.
+                    No representa una empresa real ni ofrece servicios reales.</p>
+                </span>
             </div>
         </div>
     </footer>
+    <div class="alert">
+        Proyecto ficticio con fines demostrativos
+    </div>
+    <script src="
+    app.js"></script>
 </body>
 </html>
